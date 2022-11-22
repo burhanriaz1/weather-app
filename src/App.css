@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background: rgba(0 100 0/0.1); */
+  color: white;
+  overflow: hidden;
+}
+.container{
+  max-width: 500px;
+  height: 750px;
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction:column;
+  gap: 3rem;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0,0, 0.5)),url("./img/sunset.jpg");
+  background-size:cover;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 500px;
+}
+.para{
+  text-align: center;
+}
+.right{
+  font-size: x-large;
+  height: 200px;
+  margin-top: 40px;
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bold{
+  font-size: x-large;
+  font-weight: bold;
+}
+input{
+  width: 50%;
+  margin: auto;
+  padding:.8rem .5rem;
+  border-radius: 20px;
+  background: transparent;
+  border: 1px solid black;
+  text-align: center;
+}
+input:focus{
+  outline: none;
+  border: 1px solid black;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  text-anchor: start;
+}
+input::placeholder{
+  color: white;
+  font-size: 1rem;
+}
+input:focus::placeholder{
+  opacity: 0;
+  font-size: 1rem;
+}
